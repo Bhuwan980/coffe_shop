@@ -1,6 +1,33 @@
-android
-linux 
-macos
-web
-ios
-windows
+# Flutter related
+**/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies-lock
+.packages
+.dart_tool/
+.flutter-versions
+.flutter-version
+.ios/
+.android/
+.vscode/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Generated files
+*.log
+*.lock
+*.zip
+*.tar.gz
+*.tmp
+*.bak
+*.swp
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
