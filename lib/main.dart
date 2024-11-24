@@ -10,9 +10,22 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+        theme: ThemeData(
+          // defining theme for all the input field of the app
+          inputDecorationTheme: const InputDecorationTheme(
+              hintStyle: TextStyle(
+            fontWeight: FontWeight.bold,
+          )),
+          // font family for entire application
+          fontFamily: 'Cera',
+          // primary color for entire application
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: const Color(0xFF136207),
+          ),
+        ),
         debugShowCheckedModeBanner: false,
         title: 'Coffee App',
-        home: HomePage());
+        home: const HomePage());
   }
 }
