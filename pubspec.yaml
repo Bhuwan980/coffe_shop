@@ -30,6 +30,7 @@ flutter:
   assets:
     - assets/images/bhuwan.jpeg
     - assets/images/sishu.jpg
+    - assets/images/latte.png
 
   # Fonts section
   fonts:
@@ -39,7 +40,5 @@ flutter:
           weight: 700
     - family: Cera
       fonts:
-        - asset: assets/fonts/ceraroundpro-black.otf
-          weight: 700
         - asset: assets/fonts/ceraroundpro-regular.otf
           weight: 400
